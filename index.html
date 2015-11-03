@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Validacion de usuarios</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+    
+</head>
+ 
+<body>
+    
+    <!--    LOGIN    !-->
+	<div data-role="page" id="inicio">
+        <div id="fondo-login">
+            <!--- HEADER !-->
+            <div data-role="header" class="none">
+                <img id="logo" src="img/logo.png">
+            </div>
+            <!--- CONTENIDO !-->
+            <div data-role="content">	
+                <form id="formulario" >
+                    <input type="text" id="nombredeusuario" name="nombredeusuario">
+                    <input type="password" id="clave" name="clave">
+                    <input type="submit" value="Login">
+                    <input type="button" value="Registrarse">
+                </form>	
+            </div>
+        </div>
+	</div>
+
+    
+    <!---   PROYECTOS    !-->
+	<div data-role="page" id="home" class="page">    
+        <!--- HEADER !-->
+        <div data-role="header" class="none topbar">
+            <h1 id="titulo">Proyectos</h1>
+        </div>
+            <!--- CONTENIDO PROYECTOS!-->
+	    <div data-role="content" class="secciones">	
+	      <ul id="proyectos"></ul>
+	    </div>
+	</div>
+ 
+
+  <!--   TAREAS    !-->
+    <div data-role="page" id="tarea" class="page">    
+            <!--- HEADER !-->
+        <div data-role="header" class="none topbar">
+            <h1 id="titulo">Tareas</h1>
+        </div>
+
+            <!--- CONTENIDO TAREAS!-->
+        <div data-role="content" class="secciones"> 
+            <ul id="tareas"></ul>
+        </div>
+    </div>
+
+      <!--   TAREA    !-->
+    <div data-role="page" id="unatarea" class="page">    
+            <!--- HEADER !-->
+        <div data-role="header" class="none topbar">
+            <h1 id="titulo">Tarea</h1>
+        </div>
+            <!--- CONTENIDO TAREA!-->
+        <div data-role="content" class="secciones"> 
+            <div id="infotarea"></div>
+
+            <button id="startBtn">Sacar foto</button>
+           <p id="mensaje"></p>
+            <img id="myImage">
+
+        </div>
+    </div>
+
+<script type="text/javascript" src="js/funciones.js"></script>
+<script type="text/javascript" src="cordova.js"></script> 
+
+</body>
+</html>

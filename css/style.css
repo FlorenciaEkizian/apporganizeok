@@ -1,0 +1,573 @@
+#inicio, #home{
+	text-shadow: none;
+}
+
+.page{ color: black; }
+
+a{
+    outline: none;   
+}
+
+.ui-focus {
+ -moz-box-shadow: none !important;
+ -webkit-box-shadow: none !important;
+ box-shadow: none !important;
+}
+
+* {
+text-shadow:none
+}
+
+/******------------ LOGIN ------------******/
+
+#logo{
+    width:60%;
+    height:auto;
+    margin: 0 20%;
+    margin-top: 80px;
+}
+
+#fondo-login{
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+    background-size: contain;
+}
+
+
+.none{ /** Para el header **/
+	background: none;
+    border: none;
+}
+
+
+#formulario{
+    
+    width:90%;
+    margin:8px 5%;
+    padding: 4px;
+    margin-top: 80px;
+}
+
+
+.submitButton , .ui-btn{
+	background: rgb(51,51,51);
+    border-radius: 0; 
+    color: white;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    border:0;
+}
+
+.ui-btn-hover-c:hover{
+    border-radius: 0; 
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.ui-content{
+	padding: 0;
+	overflow: hidden;
+}
+
+.ui-corner-all{
+    border-radius: 0;   
+}
+
+.ui-input-text input{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    color:#8c8b8b;
+    height: 25px;
+    
+}
+
+
+/******------------ LOGIN ------------******/
+
+
+
+/******------------ GENERAL SECCIONES ------------******/
+
+
+.topbar{
+    background-color: #cc3467;
+    border-style:none;
+    position: fixed;
+    width: 100%;
+       -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow:    0px 2px 4px 0px rgba(0, 0, 0, 0.48);
+    box-shadow:         0px 2px 4px 0px rgba(0, 0, 0, 0.48);
+    height: 60px;
+    top: 0;
+    z-index: 100;
+}
+
+.ui-title{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color:#ffffff;
+    font-weight: 400;
+    text-shadow: none;
+}
+
+.secciones{
+    padding-top: 70px;
+    padding-bottom: 70px; 
+}
+
+
+
+/** MENU DE GENEROS. **/ 
+
+.hexagon-genre{
+    background-image: url(../img/btn-genre/accion.png);
+    width:60px;
+    height: 66px;
+    background-size: 60px;
+    position: fixed;
+    bottom: 60px; 
+    right: 2.5%;
+    z-index: 100;
+    cursor: pointer;
+}
+
+
+.btns-genres{
+    display: block;   
+}
+
+.btns-genres .gen1{
+    background-image: url(../img/btn-genre/estrategia.png);
+    width:40px;
+    height: 44px;
+    background-size: 40px;
+    position: fixed;
+    bottom: 135px; 
+    right: 4.5%;
+    z-index: 100;
+    cursor: pointer; 
+}
+
+.btns-genres .gen2{
+    background-image: url(../img/btn-genre/aventura.png);
+    width:40px;
+    height: 44px;
+    background-size: 40px;
+    position: fixed;
+    bottom: 185px; 
+    right: 4.5%;
+    z-index: 100;
+    cursor: pointer; 
+}
+
+.btns-genres .gen3{
+    background-image: url(../img/btn-genre/deporte.png);
+    width:40px;
+    height: 44px;
+    background-size: 40px;
+    position: fixed;
+    bottom: 235px; 
+    right: 4.5%;
+    z-index: 100;
+    cursor: pointer; 
+}
+
+.btns-genres .gen4{
+    background-image: url(../img/btn-genre/rpg.png);
+    width:40px;
+    height: 44px;
+    background-size: 40px;
+    position: fixed;
+    bottom: 285px; 
+    right: 4.5%;
+    z-index: 100;
+    cursor: pointer; 
+}
+
+/** MENU DE NAV. **/ 
+
+.menu-nav{
+    background-color: #0c0b0b;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.btn-menu-nav{
+    width: 33.33%;
+    height: 50px;
+    float: left;
+}
+
+.btn-menu-nav:hover{
+    background-color: #000000;
+}
+
+.img-btn{
+    height:30px;
+    width: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.btn-popular-a{
+   background-image: url(../img/popular-a.png); 
+   background-size: 30px;
+   background-repeat: no-repeat;
+}
+
+.btn-popular-o{
+   background-image: url(../img/popular-o.png); 
+   background-size: 30px;
+   background-repeat: no-repeat;
+}
+
+.btn-favorite-a{
+   background-image: url(../img/favorite-a.png); 
+   background-size: 30px;
+   background-repeat: no-repeat;
+}
+
+.btn-favorite-o{
+   background-image: url(../img/favorite-o.png); 
+   background-size: 30px;
+   background-repeat: no-repeat;
+}
+
+.btn-notification-a{
+   background-image: url(../img/notification-a.png); 
+   background-size: 30px;
+   background-repeat: no-repeat;
+}
+
+.btn-notification-o{
+   background-image: url(../img/notification-o.png); 
+   background-size: 30px;
+   background-repeat: no-repeat;
+}
+
+
+
+/******------------ GENERAL SECCIONES------------******/
+
+
+
+
+/******------------ ARTICULOS ------------******/
+
+
+
+
+.ui-header .ui-title, .ui-footer .ui-title{
+    padding-top: 6px; 
+    font-size: 1.2em;
+}
+
+.articulo-popular{
+    position: relative;
+}
+
+#proyectos{
+    width:95%;
+    margin: 0 2.5%;
+    margin-bottom: 2.5%;
+    overflow: hidden;
+    padding: 0;
+}
+
+#proyectos img{
+    width:100%;
+    height: auto;  
+    margin: 0;
+    display: block; /* para sacar espacio blanco debajo*/
+}
+
+
+#proyectos ul{
+    padding: 0;
+    margin: 0;
+}
+
+#proyectos li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: auto; 
+    background-color: #e9edf2;
+    position: relative;
+    border-bottom: 5px solid #cc3467;
+    margin-bottom: 30px;
+}
+
+#proyectos li a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+#proyectos h1{
+    font-family: 'Open Sans', cursive;
+    color: rgb(51,51,51);
+    text-shadow: none;
+    font-size: 1.4em;
+    font-weight: 400;
+    height: auto;
+    padding: 12px;
+    padding-top: 0;
+}
+
+.articulo-popular  .genero{
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+    text-shadow: 0;
+    background-color: rgb(51,51,51);
+    padding: 4px 8px;
+    font-size: 0.7em;
+    border: 1px solid #cc3467;  
+    display: block;
+    margin:0;
+}
+
+
+
+/******------------ ARTICULOS ------------******/
+
+
+/******------------ FAVORITOS ------------******/
+
+.articulo-favorito{
+    position: relative;
+}
+
+#articulos-favoritos{
+    width:95%;
+    margin: 0 2.5%;
+    margin-bottom: 2.5%;
+    overflow: hidden;
+    padding: 0;
+    
+}
+
+#articulos-favoritos img{
+    width:40%;
+    height: auto;  
+    margin: 0;
+    display: block; /* para sacar espacio blanco debajo*/
+    float: left;
+    padding-right: 12px;
+    min-width: 191px;
+    min-height: 105px;
+}
+
+
+#articulos-favoritos ul{
+    padding: 0;
+    margin: 0;
+}
+
+#articulos-favoritos li{
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+    background-color: #ca0e00;
+    overflow: hidden;  
+    margin-bottom: 2.5%;
+    border-bottom: 5px solid #f6b723;
+}
+
+#articulos-favoritos li a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+#articulos-favoritos h1{
+    font-family: 'Squada One', cursive;
+    color:#fefefe;
+    text-shadow: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    height: auto;
+}
+
+#articulos-favoritos .genero{
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    color:#f6b723;
+    font-size: 0.7em;
+    text-shadow: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.1%;
+}
+
+#articulos-favoritos .categoria{
+    font-family: 'Open Sans', sans-serif;
+    color:#fefefe;
+    font-size: 0.7em;
+    text-shadow: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1%;
+}
+
+/******------------ FAVORITOS ------------******/
+
+
+
+
+
+
+
+
+
+
+
+/***************** NOTIFICACION *****************/
+
+
+.option-notificacion{
+    height: 80px;
+    width:95%;
+    margin: 0 2.5%;
+    margin-bottom: 2.5%;
+    background-color: #ca0e00;
+    border-bottom: 5px solid #f6b723;
+}
+
+.img-icon{
+    min-width: 120px;
+    overflow: hidden;
+    float: left;
+    display: block;
+}
+
+
+.option-notificacion img {
+    width: 90px;
+    height: 53px;
+    float: left;
+    margin: 15px;
+}
+
+.option-notificacion h1{
+    font-family: 'Russo One', sans-serif;  
+    color:#fffffe;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 80px;
+    text-shadow: none;
+
+}
+
+/***************** NOTIFICACION *****************/
+
+#tareas{
+    width:95%;
+    margin: 0 2.5%;
+    margin-bottom: 2.5%;
+    overflow: hidden;
+    padding: 0;
+}
+
+#tareas img{
+    width:100%;
+    height: auto;  
+    margin: 0;
+    display: block; /* para sacar espacio blanco debajo*/
+}
+
+
+#tareas ul{
+    padding: 0;
+    margin: 0;
+}
+
+#tareas li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: auto; 
+    background-color: #e9edf2;
+    position: relative;
+    border-bottom: 5px solid #cc3467;
+    margin-bottom: 30px;
+}
+
+#tareas li a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+#tareas h1{
+    font-family: 'Open Sans', cursive;
+    color: rgb(51,51,51);
+    text-shadow: none;
+    font-size: 1.4em;
+    font-weight: 400;
+    height: auto;
+    padding: 12px;
+    padding-top: 0;
+}
+
+#infotarea{
+    width:95%;
+    margin: 0 2.5%;
+    margin-bottom: 2.5%;
+    overflow: hidden;
+    padding: 0;
+}
+
+#infotarea img{
+    width:100%;
+    height: auto;  
+    margin: 0;
+    display: block; /* para sacar espacio blanco debajo*/
+}
+
+
+#infotarea ul{
+    padding: 0;
+    margin: 0;
+}
+
+#infotarea li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: auto; 
+    background-color: #e9edf2;
+    position: relative;
+    border-bottom: 5px solid #cc3467;
+    margin-bottom: 30px;
+}
+
+#infotarea li a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+#infotarea h1{
+    font-family: 'Open Sans', cursive;
+    color: rgb(51,51,51);
+    text-shadow: none;
+    font-size: 1.4em;
+    font-weight: 400;
+    height: auto;
+    padding: 12px;
+    padding-top: 0;
+}
